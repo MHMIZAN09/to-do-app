@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  background-color: #e8dede;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(126, 115, 115, 0.1);
+  width: 500px;
+  margin: auto;
+}
+.task-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.taskTitle {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+#taskInput {
+  padding: 12px 18px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.clear-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+.clear-btn:hover {
+  background-color: red;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #141313;
+  font-size: 18px;
+}
+
+li:nth-child(even) {
+  background-color: #918d8d;
+}
+.completed {
+  text-decoration: line-through;
+  font-weight: bold;
+  color: green;
+}
